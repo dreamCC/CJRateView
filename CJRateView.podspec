@@ -16,10 +16,10 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/dreamCC/CJRateView.git", :tag => s.version }
 
 
-  s.source_files  = "CJRateView", "CJRateView/*.{h,m}"
+  s.source_files  = "CJRateView/*.{h,m}"
 
 
-  s.resource  = "icon.png"
+  s.resource  = "CJRateView/CJRateView.bundle"
   s.requires_arc = true
 
 end
